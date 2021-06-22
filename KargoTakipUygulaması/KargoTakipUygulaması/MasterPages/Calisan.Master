@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Calisan.master.cs" Inherits="KargoTakipUygulaması.MasterPages.Calisan" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+            color: #000066;
+        }
+        .auto-style3 {
+            text-align: center;
+            font-weight: normal;
+            font-style: normal;
+        }
+        .auto-style5 {
+            color: #A0CFEC;
+        }
+        #form1 {
+            background-color: #A0CFEC;
+        }
+    </style>
+</head>
+    <body style="background-color: #A0CFEC">
+        <form id="form1" runat="server">
+            <div style="height: 150px; width: 700px; margin-left:300px; float:left; background-color: #3399FF;" >
+                <asp:Image ID="Image1" runat="server"  Height="147px" ImageUrl="~/MasterPages/kargo.PNG" Width="191px"/>
+                <asp:Image ID="Image2" runat="server" Height="150px" ImageUrl="~/MasterPages/kargoteslimat1 (1).png" Width="505px" />
+            </div>
+            <div style="height: 20px; width: 700px; margin-left:300px; float:left; background-color: #A0CFEC;" ></div>
+            <div style="height: 30px; width: 700px; margin-left:300px; float:left; background-color: #357EC7;" >
+                <table class="auto-style1">
+                    <tr>
+                        <td class="auto-style2"><a href="Subeler.aspx" >Şubeler</a></td>
+                        <td class="auto-style3"><a href="Calisanlar.aspx" >Çalışanlar</a></td>
+                        <td class="auto-style3"><a href="Dagitim.aspx" >Dağıtım Elemanları</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div style="height: 20px; width: 700px; float:left; margin-left:300px; background-color: #A0CFEC;" ></div>
+            <div style="margin-left: 300px; width: 700px; height:300px;">
+
+               <div style="height: 100px; width: 200px; float:left; margin-left:0px; background-color: #357EC7;" >
+
+                   <table class="auto-style1">
+                       <tr>
+                           <td class="auto-style5"><a href="KargoEkle.aspx">Kargo Ekle</a> </td>
+                       </tr>
+                       <tr>
+                           <td class="auto-style5"><a href="Kargolar.aspx">Kargolar</a></td>
+                       </tr>
+                       <tr>
+                           <td class="auto-style5"><a href="Musteriler.aspx">Müşteriler</a></td>
+                       </tr>
+                       <tr>
+                           <td class="auto-style5">Çıkış</td>
+                       </tr>
+                   </table>
+
+               </div>
+                <div style="margin-left: 20px; height:300px; width:480px; float:left; background-color: #357EC7;">
+                  <asp:ContentPlaceHolder  ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            
+
+            </div>
+
+         </form>
+     </body>
+</html>

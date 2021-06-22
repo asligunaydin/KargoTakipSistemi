@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KargoTakipUygulaması", "KargoTakipUygulaması\KargoTakipUygulaması.csproj", "{1B477C66-D284-48ED-BFE0-91D1159E7270}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B477C66-D284-48ED-BFE0-91D1159E7270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B477C66-D284-48ED-BFE0-91D1159E7270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B477C66-D284-48ED-BFE0-91D1159E7270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B477C66-D284-48ED-BFE0-91D1159E7270}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F6EF6AD-47E0-4EB7-A837-339CE3E1DBF2}
+	EndGlobalSection
+EndGlobal
